@@ -45,6 +45,9 @@ projectName.iml
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
+mvnw
+mvnw.cmd
+.mvn
 
 # Package Files #
 *.jar
