@@ -1,5 +1,10 @@
 package io.bkrzyminski.moviecatalogservice.models;
 
+/**
+ * Model class
+ *
+ * @author bkrzyminski
+ */
 public class CatalogItem {
 
     public CatalogItem(String name, String description, int rating) {

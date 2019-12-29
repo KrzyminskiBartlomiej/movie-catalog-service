@@ -1,5 +1,10 @@
 package io.bkrzyminski.moviecatalogservice.models;
 
+/**
+ * Model class
+ *
+ * @author bkrzyminski
+ */
 public class Movie {
 
     public Movie(String movieId, String name) {

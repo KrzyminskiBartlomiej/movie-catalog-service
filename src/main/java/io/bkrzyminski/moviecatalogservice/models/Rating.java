@@ -1,5 +1,10 @@
 package io.bkrzyminski.moviecatalogservice.models;
 
+/**
+ * Model class
+ *
+ * @author bkrzyminski
+ */
 public class Rating {
 
     private String movieId;
@@ -9,6 +14,8 @@ public class Rating {
         this.movieId = movieId;
         this.rating = rating;
     }
+
+    public Rating(){}
 
     public String getMovieId() {
         return movieId;
