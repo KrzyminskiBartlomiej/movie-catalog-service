@@ -40,4 +40,5 @@ public class CatalogItem {
     private String name;
     private String description;
     private int rating;
+    
 }

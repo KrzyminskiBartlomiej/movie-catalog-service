@@ -9,7 +9,8 @@ import java.util.List;
  */
 public class UserRating {
 
-    public UserRating() {}
+    public UserRating() {
+    }
 
     public List<Rating> getRatings() {
         return ratings;
@@ -20,4 +21,5 @@ public class UserRating {
     }
 
     private List<Rating> ratings;
+
 }

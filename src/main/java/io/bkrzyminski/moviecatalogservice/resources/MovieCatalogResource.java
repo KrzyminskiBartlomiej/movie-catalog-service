@@ -27,10 +27,6 @@ public class MovieCatalogResource {
     @Autowired
     private RestTemplate restTemplate;
 
-    @Qualifier("getWebclientBuilder")
-    @Autowired
-    private WebClient.Builder builder;
-
     /**
      * Creates new catalogs by communicating with outer services
      *
@@ -49,4 +45,5 @@ public class MovieCatalogResource {
                 })
                 .collect(Collectors.toList());
     }
+
 }

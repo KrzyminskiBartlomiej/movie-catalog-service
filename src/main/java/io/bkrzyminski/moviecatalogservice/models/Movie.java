@@ -12,7 +12,8 @@ public class Movie {
         this.name = name;
     }
 
-    public Movie(){}
+    public Movie() {
+    }
 
     public String getMovieId() {
         return movieId;
@@ -32,4 +33,5 @@ public class Movie {
 
     private String movieId;
     private String name;
+
 }
